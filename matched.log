@@ -1,0 +1,226 @@
+Data from 'conn.log':
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	conn
+#open	2023-10-06-05-00-10
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	service	duration	orig_bytes	resp_bytes	conn_state	local_orig	local_resp	missed_bytes	history	orig_pkts	orig_ip_bytes	resp_pkts	resp_ip_bytes	tunnel_parents
+#types	time	string	addr	port	addr	port	enum	string	interval	count	count	string	bool	bool	count	string	count	count	count	count	set[string]
+1696564800.229262	CNYcSL3xBuIVkwG9Ek	192.168.100.5	44111	194.168.4.100	53	udp	dns	0.011027	0	44	SHR	T	F	0	Cd	0	0	1	72	-
+1696564800.244121	CQLhO33US171WOxSp5	192.168.100.5	46888	194.168.4.100	53	udp	dns	0.012733	0	88	SHR	T	F	0	Cd	0	0	1	116	-
+1696564800.260758	C8a5sg3EWE01m6GOS2	192.168.100.5	51270	194.168.4.100	53	udp	dns	0.275844	0	154	SHR	T	F	0	Cd	0	0	1	182	-
+1696564800.540301	C4EoLf2sxCouOaHV05	192.168.100.5	50651	194.168.4.100	53	udp	dns	0.012075	0	44	SHR	T	F	0	Cd	0	0	1	72	-
+1696564800.556043	CBqYiC27aSokGAVRG7	192.168.100.5	60484	194.168.4.100	53	udp	dns	0.274507	0	154	SHR	T	F	0	Cd	0	0	1	182	-
+1696564800.834125	CiqEdO2AYnYdQepcd	192.168.100.5	50768	194.168.4.100	53	udp	dns	0.010227	0	88	SHR	T	F	0	Cd	0	0	1	116	-
+1696564800.847642	CHkvJa1XHnwMaYNhVh	192.168.100.5	42145	194.168.4.100	53	udp	dns	0.011255	0	44	SHR	T	F	0	Cd	0	0	1	72	-
+1696564800.862326	CpaLNu4HDSOoV4rWv1	192.168.100.5	34751	194.168.4.100	53	udp	dns	0.019222	0	128	SHR	T	F	0	Cd	0	0	1	156	-
+1696564800.888059	CYqNkoYdSTXSMSqWh	192.168.100.5	46102	194.168.4.100	53	udp	dns	0.011343	0	116	SHR	T	F	0	Cd	0	0	1	144	-
+1696564800.902987	C5vsyS3QbGbmyUhgH8	192.168.100.5	37797	194.168.4.100	53	udp	dns	0.019443	0	119	SHR	T	F	0	Cd	0	0	1	147	-
+1696564800.925914	C8MPsO1Z6KGa5Gpk63	192.168.100.5	58414	194.168.4.100	53	udp	dns	0.017582	0	130	SHR	T	F	0	Cd	0	0	1	158	-
+1696564800.946825	CFOeYOuJCAxVoqiHk	192.168.100.5	49838	194.168.4.100	53	udp	dns	0.012732	0	117	SHR	T	F	0	Cd	0	0	1	145	-
+1696564800.963681	CLI48Z3OCFnjhu4he7	192.168.100.5	46518	194.168.4.100	53	udp	dns	0.014675	0	154	SHR	T	F	0	Cd	0	0	1	182	-
+1696564800.999410	CqrI3WJNGLbs8MdT1	192.168.100.5	38273	194.168.4.100	53	udp	dns	0.011049	0	97	SHR	T	F	0	Cd	0	0	1	125	-
+1696564801.579935	ChBcUFrg9jBYw6tji	192.168.100.5	34137	194.168.4.100	53	udp	dns	0.011015	0	97	SHR	T	F	0	Cd	0	0	1	125	-
+1696564801.592309	Chf5rq1qQZiZvxNPFb	192.168.100.5	43847	194.168.4.100	53	udp	dns	0.013588	0	97	SHR	T	F	0	Cd	0	0	1	125	-
+1696564861.645373	CXZKzK2QY1xff4JuNb	192.168.100.5	56598	194.168.4.100	53	udp	dns	0.011085	0	97	SHR	T	F	0	Cd	0	0	1	125	-
+1696564921.656575	CvzpE21cqhxYR1Y3ml	192.168.100.5	37268	194.168.4.100	53	udp	dns	0.011923	0	97	SHR	T	F	0	Cd	0	0	1	125	-
+1696564906.453258	Csdjh7kRoEmu93Zkc	192.168.100.5	68	192.168.100.3	67	udp	dhcp	0.025019	0	548	SHR	T	T	0	Cd	0	0	1	576	-
+1696564981.706572	C3Toa33YnU3wGeyoIh	192.168.100.5	59111	194.168.4.100	53	udp	dns	0.011765	0	97	SHR	T	F	0	Cd	0	0	1	125	-
+1696564743.735773	CV7aNb34WnBZTRKpBa	192.168.100.5	37846	13.107.5.93	443	tcp	-	0.084166	0	2395	OTH	T	F	0	^hCdca	0	0	3	269	-
+1696565041.720713	C5pE62ShwTEjaoXVa	192.168.100.5	54221	194.168.4.100	53	udp	dns	0.042172	0	97	SHR	T	F	0	Cd	0	0	1	125	-
+1696565077.344054	COk3lI1IKg9GdWvTKl	192.168.100.5	41986	52.178.17.234	443	tcp	-	-	-	-	OTH	T	F	0	C	0	0	0	0	-
+1696565077.327385	CgCsk34d359WzpImu7	192.168.100.5	55312	194.168.8.100	53	udp	dns	0.013624	0	174	SHR	T	F	0	Cd	0	0	1	202	-
+1696565077.327482	CeSh83z9gE7zS9Im7	192.168.100.5	60258	194.168.8.100	53	udp	dns	0.016327	0	219	SHR	T	F	0	Cd	0	0	1	247	-
+1696565101.770038	CwSHdA18yGy0mzpkFb	192.168.100.5	42334	194.168.4.100	53	udp	dns	0.059278	0	97	SHR	T	F	0	Cd	0	0	1	125	-
+1696565161.817807	CgWD7Y1NJZxtNPNkt8	192.168.100.5	58019	194.168.4.100	53	udp	dns	0.013402	0	97	SHR	T	F	0	Cd	0	0	1	125	-
+1696565221.884528	CUYs6M1NdSYLa4zJZj	192.168.100.5	44923	194.168.4.100	53	udp	dns	0.012787	0	97	SHR	T	F	0	Cd	0	0	1	125	-
+1696564606.080092	C9ZjN912d2nCdyjEhd	192.168.100.5	35140	20.50.73.13	443	tcp	-	341.940086	0	13324	RSTRH	T	F	0	^hCdcaCCr	0	0	124	15368	-
+1696565206.453366	CmQLIjycLRUQ34bja	192.168.100.5	68	192.168.100.3	67	udp	dhcp	0.005528	0	548	SHR	T	T	0	Cd	0	0	1	576	-
+1696565281.861806	CJUXeC25cEVcpqgtWc	192.168.100.5	57466	194.168.4.100	53	udp	dns	0.011465	0	97	SHR	T	F	0	Cd	0	0	1	125	-
+1696565341.884202	CEk00u1if0jCrmWfSd	192.168.100.5	48162	194.168.4.100	53	udp	dns	0.017514	0	97	SHR	T	F	0	Cd	0	0	1	125	-
+1696565401.930907	Cdf1mF4lOLx9JHXpjg	192.168.100.5	60549	194.168.4.100	53	udp	dns	0.012056	0	97	SHR	T	F	0	Cd	0	0	1	125	-
+1696565077.370741	CrZeJg3Fb7dw4wBaX9	192.168.100.5	41986	52.178.17.234	443	tcp	-	340.450031	73531	13057	RSTR	T	F	73531	^hCdaCDGGr	3	39376	117	17741	-
+1696565465.364904	CV1GyK2FsomagoYI17	192.168.100.5	52102	40.79.141.154	443	tcp	-	-	-	-	OTH	T	F	0	C	0	0	0	0	-
+1696565461.952649	CAF2wZ2RBBr7AW8tdl	192.168.100.5	45701	194.168.4.100	53	udp	dns	0.040642	0	97	SHR	T	F	0	Cd	0	0	1	125	-
+1696565465.334965	CB1OuI2xlX67osZk8g	192.168.100.5	33032	194.168.8.100	53	udp	dns	0.029701	0	177	SHR	T	F	0	Cd	0	0	1	205	-
+1696565465.335014	ChJ0GW1WOJKPNkCWk1	192.168.100.5	5175	194.168.8.100	53	udp	dns	0.029706	0	221	SHR	T	F	0	Cd	0	0	1	249	-
+1696565522.006247	CqzC8I1g1ukqbxyfYd	192.168.100.5	59714	194.168.4.100	53	udp	dns	0.012722	0	97	SHR	T	F	0	Cd	0	0	1	125	-
+1696565506.453803	CYTuE54FvHAVOR2Z2	192.168.100.5	68	192.168.100.3	67	udp	dhcp	0.030567	0	548	SHR	T	T	0	Cd	0	0	1	576	-
+1696565581.051092	CVP4rz3xSbEfe5FwF7	192.168.100.5	54470	194.168.4.100	53	udp	dns	0.012677	0	97	SHR	T	F	0	Cd	0	0	1	125	-
+1696565641.070277	CJzWH34JcO6IulpqR2	192.168.100.5	52216	194.168.4.100	53	udp	dns	0.011500	0	97	SHR	T	F	0	Cd	0	0	1	125	-
+1696565709.805394	CvTyWU370K5eJi8zp5	192.168.100.5	34858	20.42.73.26	443	tcp	-	-	-	-	OTH	T	F	0	C	0	0	0	0	-
+1696565701.182859	CBN0224nxux3JXGiJ9	192.168.100.5	40223	194.168.4.100	53	udp	dns	0.012590	0	97	SHR	T	F	0	Cd	0	0	1	125	-
+1696565709.789555	CXMuFJ3jdi4vSHmQnc	192.168.100.5	37055	194.168.8.100	53	udp	dns	0.015616	0	170	SHR	T	F	0	Cd	0	0	1	198	-
+1696565709.789673	Cuaq9J2Md15M984End	192.168.100.5	36052	194.168.8.100	53	udp	dns	0.014935	0	215	SHR	T	F	0	Cd	0	0	1	243	-
+1696565761.189164	CHVfs61o7ccULXAwXd	192.168.100.5	40123	194.168.4.100	53	udp	dns	0.011267	0	97	SHR	T	F	0	Cd	0	0	1	125	-
+1696565821.259374	Ceaonl3kaGzBAjk5od	192.168.100.5	45635	194.168.4.100	53	udp	dns	0.012974	0	97	SHR	T	F	0	Cd	0	0	1	125	-
+1696565806.454903	CxToim1AXHJ6B7mq2d	192.168.100.5	68	192.168.100.3	67	udp	dhcp	0.008838	0	548	SHR	T	T	0	Cd	0	0	1	576	-
+1696565881.251443	CiK9U453zXMRRAKbl	192.168.100.5	43819	194.168.4.100	53	udp	dns	0.011862	0	97	SHR	T	F	0	Cd	0	0	1	125	-
+1696565941.311730	C0UtVj3MSwcK3ikjzh	192.168.100.5	59519	194.168.4.100	53	udp	dns	0.011567	0	97	SHR	T	F	0	Cd	0	0	1	125	-
+1696565465.391041	Cpw07P2jSbFWEOeD54	192.168.100.5	52102	40.79.141.154	443	tcp	-	197.431346	0	7421	RSTRH	T	F	0	^hCcdaCr	0	0	22	2465	-
+1696566007.641331	C0GOIL3TbI1bADuGJ3	192.168.100.5	41444	52.168.117.170	443	tcp	-	-	-	-	OTH	T	F	0	C	0	0	0	0	-
+1696566001.299247	CGo0ZH380bmbM35Qt5	192.168.100.5	40933	194.168.4.100	53	udp	dns	0.013205	0	97	SHR	T	F	0	Cd	0	0	1	125	-
+1696566001.319044	C7zNs52AhLwza74BD1	192.168.100.5	53640	194.168.4.100	53	udp	dns	0.012088	0	97	SHR	T	F	0	Cd	0	0	1	125	-
+1696566007.627135	CAjhsW1a1lwpIzTfIh	192.168.100.5	62171	194.168.8.100	53	udp	dns	0.013300	0	170	SHR	T	F	0	Cd	0	0	1	198	-
+1696566007.627230	CtPhnC4S2zDlNIP6xd	192.168.100.5	45132	194.168.8.100	53	udp	dns	0.013989	0	215	SHR	T	F	0	Cd	0	0	1	243	-
+1696566061.363559	CMdICl1QXcL6GGCfsd	192.168.100.5	52054	194.168.4.100	53	udp	dns	0.015803	0	97	SHR	T	F	0	Cd	0	0	1	125	-
+1696566121.385643	CTS0jaNbuYzfCT1M6	192.168.100.5	49445	194.168.4.100	53	udp	dns	0.014388	0	97	SHR	T	F	0	Cd	0	0	1	125	-
+1696566106.470437	CNiu6w4ybnoGxn26bb	192.168.100.5	68	192.168.100.3	67	udp	dhcp	0.005070	0	548	SHR	T	T	0	Cd	0	0	1	576	-
+
+Data from 'conn.2023-10-06-04-00-00.log':
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	conn
+#open	2023-10-06-04-00-10
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	service	duration	orig_bytes	resp_bytes	conn_state	local_orig	local_resp	missed_bytes	history	orig_pkts	orig_ip_bytes	resp_pkts	resp_ip_bytes	tunnel_parents
+#types	time	string	addr	port	addr	port	enum	string	interval	count	count	string	bool	bool	count	string	count	count	count	count	set[string]
+1696561200.139714	CKKDL01FuSrw2viy0c	192.168.100.5	32771	194.168.4.100	53	udp	dns	0.012287	0	44	SHR	T	F	0	Cd	0	0	1	72	-
+1696561200.156293	CcdE6f4zn9dVBN4tc8	192.168.100.5	45998	194.168.4.100	53	udp	dns	0.011665	0	88	SHR	T	F	0	Cd	0	0	1	116	-
+1696561200.171803	CXKLh94m9556utyg1l	192.168.100.5	42432	194.168.4.100	53	udp	dns	0.046918	0	154	SHR	T	F	0	Cd	0	0	1	182	-
+1696561200.222505	CcAV981Dv0GzY8C4G5	192.168.100.5	41175	194.168.4.100	53	udp	dns	0.011135	0	44	SHR	T	F	0	Cd	0	0	1	72	-
+1696561200.237506	C5qiO513e6SrvYdX8j	192.168.100.5	39791	194.168.4.100	53	udp	dns	0.012088	0	44	SHR	T	F	0	Cd	0	0	1	72	-
+1696561200.253540	CtTTej2qgsQLgScHm5	192.168.100.5	55977	194.168.4.100	53	udp	dns	0.013277	0	88	SHR	T	F	0	Cd	0	0	1	116	-
+1696561200.270755	CSprT3kmP6ayu0wvk	192.168.100.5	50804	194.168.4.100	53	udp	dns	0.155219	0	154	SHR	T	F	0	Cd	0	0	1	182	-
+1696561200.429988	CMPAZN2cJ96TYvP3xi	192.168.100.5	57858	194.168.4.100	53	udp	dns	0.019667	0	128	SHR	T	F	0	Cd	0	0	1	156	-
+1696561200.453444	CE7ojA4adhHpK4nz73	192.168.100.5	49255	194.168.4.100	53	udp	dns	0.012169	0	154	SHR	T	F	0	Cd	0	0	1	182	-
+1696561200.472376	CebgyZ3StrvRv0V812	192.168.100.5	50180	194.168.4.100	53	udp	dns	0.011461	0	103	SHR	T	F	0	Cd	0	0	1	131	-
+1696561200.487866	CakblG2HwI9P6VaRkb	192.168.100.5	48041	194.168.4.100	53	udp	dns	0.011716	0	116	SHR	T	F	0	Cd	0	0	1	144	-
+1696561200.503479	CQ7yNi2bnTuTiLC7cc	192.168.100.5	50317	194.168.4.100	53	udp	dns	0.021150	0	129	SHR	T	F	0	Cd	0	0	1	157	-
+1696561200.528568	CWhkWF4zax3qetlmAf	192.168.100.5	55927	194.168.4.100	53	udp	dns	0.011029	0	118	SHR	T	F	0	Cd	0	0	1	146	-
+1696561200.562953	Cnksa02mSlAJzxmPh4	192.168.100.5	44996	194.168.4.100	53	udp	dns	0.010650	0	97	SHR	T	F	0	Cd	0	0	1	125	-
+1696561201.133912	C6zSp2Hy1Gxo7tyKf	192.168.100.5	49020	194.168.4.100	53	udp	dns	0.012348	0	97	SHR	T	F	0	Cd	0	0	1	125	-
+1696561306.436558	C4yMaM3UI1vdYglI86	192.168.100.5	68	192.168.100.3	67	udp	dhcp	0.015867	0	548	SHR	T	T	0	Cd	0	0	1	576	-
+1696561606.437018	CBJ47b1nTZiTzWYqba	192.168.100.5	68	192.168.100.3	67	udp	dhcp	0.004533	0	548	SHR	T	T	0	Cd	0	0	1	576	-
+1696561906.437744	CBR3aI30ckdTJQvx16	192.168.100.5	68	192.168.100.3	67	udp	dhcp	0.004292	0	548	SHR	T	T	0	Cd	0	0	1	576	-
+1696562206.437849	CHRUQ2qLiT2XcxZei	192.168.100.5	68	192.168.100.3	67	udp	dhcp	0.007066	0	548	SHR	T	T	0	Cd	0	0	1	576	-
+1696562401.216855	CIFsit14z014Bs9kBb	192.168.100.5	33888	194.168.4.100	53	udp	dns	0.012559	0	97	SHR	T	F	0	Cd	0	0	1	125	-
+1696562506.439565	ChORui274uuETsp7x8	192.168.100.5	68	192.168.100.3	67	udp	dhcp	0.017547	0	548	SHR	T	T	0	Cd	0	0	1	576	-
+1696562806.439671	CghUh32b5P3f1Kq9Cf	192.168.100.5	68	192.168.100.3	67	udp	dhcp	0.004519	0	548	SHR	T	T	0	Cd	0	0	1	576	-
+1696562942.910276	CjwuO91LxxmSwxTeN1	192.168.100.5	33628	13.107.5.93	443	tcp	-	-	-	-	OTH	T	F	0	C	0	0	0	0	-
+1696562943.712909	CildZN1JS3gqJMRxJb	192.168.100.5	33638	13.107.5.93	443	tcp	-	-	-	-	OTH	T	F	0	C	0	0	0	0	-
+1696562942.937123	CfRI7j41RsE3RVp0F2	192.168.100.5	33628	13.107.5.93	443	tcp	-	0.125629	0	6674	SHR	T	F	0	^hCdafC	0	0	9	7038	-
+1696562943.737720	CR7fR5FM2d1t2aQo6	192.168.100.5	33638	13.107.5.93	443	tcp	-	0.089255	0	6673	SHR	T	F	0	^hCadfC	0	0	9	7037	-
+1696562942.881844	C6IlIb2FZ2o6S01Nli	192.168.100.5	57466	194.168.4.100	53	udp	dns	0.028113	0	279	SHR	T	F	0	Cd	0	0	2	335	-
+1696562943.695923	CzuLfl3XXDKVnODnnh	192.168.100.5	60209	194.168.4.100	53	udp	dns	0.016572	0	279	SHR	T	F	0	Cd	0	0	2	335	-
+1696563062.353949	CyyRC14Wz5Uc0AICEb	192.168.100.5	58484	152.199.19.160	443	tcp	-	-	-	-	OTH	T	F	0	C	0	0	0	0	-
+1696563062.338919	CohZ0h3HJLZScWAHq7	192.168.100.5	29926	194.168.8.100	53	udp	dns	0.011820	0	85	SHR	T	F	0	Cd	0	0	1	113	-
+1696563062.339000	CULYeo2WSHbBPWmLc5	192.168.100.5	5346	194.168.8.100	53	udp	dns	0.014782	0	125	SHR	T	F	0	Cd	0	0	1	153	-
+1696563106.442247	CQ2Rjj1x2zRU3kWGRg	192.168.100.5	68	192.168.100.3	67	udp	dhcp	0.004897	0	548	SHR	T	T	0	Cd	0	0	1	576	-
+1696563062.374898	C4w1WX2BhdTY6FUWJ9	192.168.100.5	58484	152.199.19.160	443	tcp	-	180.705417	0	8555	RSTO	T	F	0	^hCdacCR	1	40	16	6279	-
+1696563406.443226	ChKHdO4nJEH59LXs3	192.168.100.5	68	192.168.100.3	67	udp	dhcp	0.017118	0	548	SHR	T	T	0	Cd	0	0	1	576	-
+1696560454.709146	CYy2AD10M6eHQDunia	192.168.100.5	47974	20.44.10.122	443	tcp	-	3064.562926	51588249	1432328	RSTR	T	F	51591169	^hCdcaCDgGGCGCGCGr	27	332336	26754	2499572	-
+1696563601.326964	CHbtBB1IzspZQ7CWFh	192.168.100.5	40849	194.168.4.100	53	udp	dns	0.011034	0	97	SHR	T	F	0	Cd	0	0	1	125	-
+1696563612.777247	CYO9Hh2OBGBZQYLAyh	fe80::8c26:22a4:14d7:a6d	133	ff02::2	134	icmp	-	-	-	-	OTH	T	F	0	-	1	48	0	0	-
+1696563686.177623	CBSDYp2rIQbro5kJ9f	192.168.100.5	50358	52.182.143.211	443	tcp	-	-	-	-	OTH	T	F	0	C	0	0	0	0	-
+1696563686.163616	CwcOoh3AQwk7Tv9GX	192.168.100.5	12735	194.168.8.100	53	udp	dns	0.013295	0	173	SHR	T	F	0	Cd	0	0	1	201	-
+1696563686.163684	CgR0fQ2cFU3kLzB9G1	192.168.100.5	12489	194.168.8.100	53	udp	dns	0.013785	0	218	SHR	T	F	0	Cd	0	0	1	246	-
+1696563652.473676	CiQthn1WKSUAvjsmP2	fe80::62a9:cb0b:317e:3800	133	ff02::2	134	icmp	-	-	-	-	OTH	T	F	0	-	1	48	0	0	-
+1696563738.569595	CrKUYq3Kz1l47FUIwk	fe80::8c26:22a4:14d7:a6d	5353	ff02::fb	5353	udp	dns	-	-	-	S0	T	F	0	D	1	189	0	0	-
+1696563738.569657	CCT4Ah1hB3JOCIjmt1	192.168.100.6	5353	224.0.0.251	5353	udp	dns	-	-	-	S0	T	F	0	D	1	169	0	0	-
+1696563706.443269	C1H7F12SMyZgmVF2Gj	192.168.100.5	68	192.168.100.3	67	udp	dhcp	0.020616	0	548	SHR	T	T	0	Cd	0	0	1	576	-
+1696564006.446231	CuXGPB1oP3IyDRSa7k	192.168.100.5	68	192.168.100.3	67	udp	dhcp	0.018682	0	548	SHR	T	T	0	Cd	0	0	1	576	-
+1696563686.299071	CLYW7r1f9V9Nq1Iaf6	192.168.100.5	50358	52.182.143.211	443	tcp	-	194.699133	0	7424	RSTRH	T	F	0	^hCadcCr	0	0	24	5468	-
+1696564206.270473	CPhAJy13AlommQ3NR7	192.168.100.5	51182	20.189.173.16	443	tcp	-	-	-	-	OTH	T	F	0	C	0	0	0	0	-
+1696564206.253365	CWAsOC3cWSRW4FBjp4	192.168.100.5	14766	194.168.8.100	53	udp	dns	0.011797	0	170	SHR	T	F	0	Cd	0	0	1	198	-
+1696564206.253431	C7rgFn1eWFQ1ld8KBb	192.168.100.5	14578	194.168.8.100	53	udp	dns	0.017815	0	214	SHR	T	F	0	Cd	0	0	1	242	-
+1696564206.271263	CPZNLl10jkYz8iWSve	192.168.100.5	3	194.168.8.100	3	icmp	-	-	-	-	OTH	T	F	0	-	1	270	0	0	-
+1696564306.447343	CsIYqC34J9UswO53V9	192.168.100.5	68	192.168.100.3	67	udp	dhcp	0.005276	0	548	SHR	T	T	0	Cd	0	0	1	576	-
+1696564373.035530	C6eiyE4nAwwYpScJEb	192.168.100.5	35032	13.89.178.26	443	tcp	-	-	-	-	OTH	T	F	0	C	0	0	0	0	-
+1696564373.022748	C2XcQr4otiX8Qu8brh	192.168.100.5	18398	194.168.8.100	53	udp	dns	0.011900	0	173	SHR	T	F	0	Cd	0	0	1	201	-
+1696564373.022802	CZCJSH2Vcp5Gv8Boc5	192.168.100.5	9633	194.168.8.100	53	udp	dns	0.012533	0	218	SHR	T	F	0	Cd	0	0	1	246	-
+1696564381.404734	CxSKLW12XRI4a7SR18	192.168.100.5	34566	194.168.4.100	53	udp	dns	0.012306	0	97	SHR	T	F	0	Cd	0	0	1	125	-
+1696564441.404377	Cd5KqMrti9r1ilN1k	192.168.100.5	47924	194.168.4.100	53	udp	dns	0.010542	0	97	SHR	T	F	0	Cd	0	0	1	125	-
+1696564501.459371	CZXnJ31d5i5ihueKN1	192.168.100.5	50017	194.168.4.100	53	udp	dns	0.018758	0	97	SHR	T	F	0	Cd	0	0	1	125	-
+1696564561.464582	CS8Nsx4fGGvkRT6Isg	192.168.100.5	44307	194.168.4.100	53	udp	dns	0.012814	0	97	SHR	T	F	0	Cd	0	0	1	125	-
+1696564373.162279	CF20rQhVAS4XMwzdi	192.168.100.5	35032	13.89.178.26	443	tcp	-	198.201640	68720	12557	RSTR	T	F	71640	^hCdcaCDgGGCr	1	11720	124	14601	-
+1696564606.050931	CgJjGy4RFKHmen3YJb	192.168.100.5	35140	20.50.73.13	443	tcp	-	-	-	-	OTH	T	F	0	C	0	0	0	0	-
+1696564606.036769	ChyX2d1q2WLHA32g9h	192.168.100.5	38887	194.168.8.100	53	udp	dns	0.014033	0	175	SHR	T	F	0	Cd	0	0	1	203	-
+1696564606.036896	CxqPox439WuzlLXQ5h	192.168.100.5	40944	194.168.8.100	53	udp	dns	0.013144	0	220	SHR	T	F	0	Cd	0	0	1	248	-
+1696564206.432247	CSR9JH2cbVHVaLZmge	192.168.100.5	51182	20.189.173.16	443	tcp	-	124.745860	0	6850	RSTRH	T	F	0	^hCacdCr	0	0	13	1534	-
+1696564621.528188	CJnBhg3ynVr7uAO9sb	192.168.100.5	44461	194.168.4.100	53	udp	dns	0.011639	0	97	SHR	T	F	0	Cd	0	0	1	125	-
+1696564606.448394	CiYPEe1tPxktwGZuE	192.168.100.5	68	192.168.100.3	67	udp	dhcp	0.015926	0	548	SHR	T	T	0	Cd	0	0	1	576	-
+1696564681.528830	C1n6fl2mrih8z5LFMj	192.168.100.5	52456	194.168.4.100	53	udp	dns	0.014043	0	97	SHR	T	F	0	Cd	0	0	1	125	-
+1696564742.908946	CJ09QH3J8hngMJxHIh	192.168.100.5	37842	13.107.5.93	443	tcp	-	-	-	-	OTH	T	F	0	C	0	0	0	0	-
+1696564743.711202	CkDxFt34EVT48d1ag7	192.168.100.5	37846	13.107.5.93	443	tcp	-	-	-	-	OTH	T	F	0	C	0	0	0	0	-
+1696564742.933056	CsFMwk34npbSC9ctzh	192.168.100.5	37842	13.107.5.93	443	tcp	-	0.103675	0	6673	SHR	T	F	0	^hCadfC	0	0	9	7037	-
+1696564741.588232	CGnj5K3roSm7NUu0i	192.168.100.5	42126	194.168.4.100	53	udp	dns	0.013686	0	97	SHR	T	F	0	Cd	0	0	1	125	-
+1696564742.881048	Cum55diGm2YySN7g5	192.168.100.5	37789	194.168.4.100	53	udp	dns	0.027612	0	279	SHR	T	F	0	Cd	0	0	2	335	-
+1696564743.697675	CJijCG14AAMHdyVggk	192.168.100.5	57220	194.168.4.100	53	udp	dns	0.013167	0	279	SHR	T	F	0	Cd	0	0	2	335	-
+#close	2023-10-06-05-00-00
+
+Data from 'dhcp.log':
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dhcp
+#open	2023-10-06-05-02-03
+#fields	ts	uids	client_addr	server_addr	mac	host_name	client_fqdn	domain	requested_addr	assigned_addr	lease_time	client_message	server_message	msg_types	duration
+#types	time	set[string]	addr	addr	string	string	string	string	addr	addr	interval	string	string	vector[string]	interval
+1696564906.478277	Csdjh7kRoEmu93Zkc	192.168.100.5	192.168.100.3	08:00:27:cb:7e:f5	-	-	-	-	192.168.100.5	600.000000	-	-	ACK	0.000000
+1696565206.458894	CmQLIjycLRUQ34bja	192.168.100.5	192.168.100.3	08:00:27:cb:7e:f5	-	-	-	-	192.168.100.5	600.000000	-	-	ACK	0.000000
+1696565506.484370	CYTuE54FvHAVOR2Z2	192.168.100.5	192.168.100.3	08:00:27:cb:7e:f5	-	-	-	-	192.168.100.5	600.000000	-	-	ACK	0.000000
+1696565806.463741	CxToim1AXHJ6B7mq2d	192.168.100.5	192.168.100.3	08:00:27:cb:7e:f5	-	-	-	-	192.168.100.5	600.000000	-	-	ACK	0.000000
+1696566106.475507	CNiu6w4ybnoGxn26bb	192.168.100.5	192.168.100.3	08:00:27:cb:7e:f5	-	-	-	-	192.168.100.5	600.000000	-	-	ACK	0.000000
+
+Data from 'conn-summary.23-10-06_04.00.00.log':
+
+>== Total === 2023-10-06-03-47-34 - 2023-10-06-04-59-03
+   - Connections  72.0 - Payload 53.2m - 
+     Ports        | Sources                             | Destinations              | Services           | Protocols | States        |
+     53     52.8% | 192.168.100.5#1               94.4% | 194.168.4.100#2     38.9% | dns          55.6% | 17  72.2% | SHR     73.6% | 
+     443    23.6% | fe80::8c26:22a4:14d7:a6d#3     2.8% | 192.168.100.3#4     16.7% | -            27.8% | 6   23.6% | OTH     16.7% | 
+     67     16.7% | fe80::62a9:cb0b:317e:3800#5    1.4% | 194.168.8.100#6     15.3% | dhcp         16.7% | 1    4.2% | S0       2.8% | 
+     5353    2.8% | 192.168.100.6#7                1.4% | 13.107.5.93#8        9.7% |                    |           | RSTRH    2.8% | 
+     134     2.8% |                                     | ff02::2#9            2.8% |                    |           | RSTR     2.8% | 
+     3       1.4% |                                     | 152.199.19.160#10    2.8% |                    |           | RSTO     1.4% | 
+                  |                                     | 52.182.143.211#11    2.8% |                    |           |               | 
+                  |                                     | 20.189.173.16#12     2.8% |                    |           |               | 
+                  |                                     | 13.89.178.26#13      2.8% |                    |           |               | 
+                  |                                     | ff02::fb#14          1.4% |                    |           |               | 
+
+        #1=<???>  #2=cache1.service.virginmedia.net  #3=<???>  
+        #4=<???>  #5=<???>  #6=cache2.service.virginmedia.net  
+        #7=<???>  #8=<???>  #9=ip6-allrouters  
+        #10=<???>  #11=<???>  #12=<???>  
+        #13=<???>  #14=<???>  
+
+
+>== Incoming === N/A - N/A
+   - Connections 0 - Payload 0 - 
+     Ports        | Sources                   | Destinations              | Services           | Protocols | States        |
+                  |                           |                           |                    |           |               | 
+                  |                           |                           |                    |           |               | 
+                  |                           |                           |                    |           |               | 
+                  |                           |                           |                    |           |               | 
+                  |                           |                           |                    |           |               | 
+                  |                           |                           |                    |           |               | 
+                  |                           |                           |                    |           |               | 
+                  |                           |                           |                    |           |               | 
+                  |                           |                           |                    |           |               | 
+                  |                           |                           |                    |           |               | 
+
+        
+
+
+>== Outgoing === N/A - N/A
+   - Connections 0 - Payload 0 - 
+     Ports        | Sources                   | Destinations              | Services           | Protocols | States        |
+                  |                           |                           |                    |           |               | 
+                  |                           |                           |                    |           |               | 
+                  |                           |                           |                    |           |               | 
+                  |                           |                           |                    |           |               | 
+                  |                           |                           |                    |           |               | 
+                  |                           |                           |                    |           |               | 
+                  |                           |                           |                    |           |               | 
+                  |                           |                           |                    |           |               | 
+                  |                           |                           |                    |           |               | 
+                  |                           |                           |                    |           |               | 
+
+        
+
+First: 2023-10-06-03-47-34 (1696560454.709146) Last: 2023-10-06-04-59-03 1696564743.711202
+
