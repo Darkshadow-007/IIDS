@@ -1,0 +1,4 @@
+testingrule .//conn.log
+testingrule .//dhcp.log
+testingrule .//conn-summary.23-10-06_04.00.00.log
+testingrule .//conn.2023-10-06-04-00-00.log
